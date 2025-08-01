@@ -154,6 +154,7 @@ nav {
 main {
     background-color: lightblue;
     flex: 1 0 auto; /* Allow main to grow and fill available space */
+    margin-top: 47px; /* Adjust for header height */
 }
 
 /* Footer */
