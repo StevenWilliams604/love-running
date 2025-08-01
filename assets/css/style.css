@@ -181,4 +181,13 @@ footer {
     .nav-toggle-label {
       display: none; /* Hide the toggle label on larger screens */
     }
+    #logo {
+      font-size: 280%;
+      line-height: 75px;
+      margin: 0 0.5rem;
+    }
+    /* Main content adjustment */
+    main {
+        margin-top: 79px; /* Adjust for larger header height */
+    }
 }
