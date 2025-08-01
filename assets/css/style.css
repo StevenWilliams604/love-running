@@ -162,3 +162,23 @@ footer {
     background-color: orange
 }
 
+/* media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+      display: block; /* Show nav on larger screens */
+      position: relative; /* Position relative for larger screens */
+      box-shadow: none; /* Remove shadow on larger screens */
+      width: fit-content; /* Fit content width */
+      padding-right: 1rem; /* Add padding to the right */
+    }
+    #menu {
+      display: flex; /* Use flexbox for horizontal layout */
+    }
+    #menu > li {
+      padding-left: 1rem; /* Add padding to the left of each menu item */
+    }
+    .nav-toggle-label {
+      display: none; /* Hide the toggle label on larger screens */
+    }
+}
