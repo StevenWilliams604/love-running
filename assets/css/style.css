@@ -165,7 +165,7 @@ main {
 }
 
 #cover-text {
-  /* FInal RBGA value sets the opacity so it is semi-transparent */
+  /* Final RBGA value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
@@ -249,6 +249,24 @@ main {
 #benefits hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
+}
+
+/* Circle cover image */
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp');
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer styles */
