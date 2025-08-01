@@ -158,8 +158,12 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
 
 /* media query: tablets and larger (768px and up) */
@@ -190,6 +194,12 @@ footer {
     main {
         margin-top: 79px; /* Adjust for larger header height */
     }
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query: laptops and larger (992px and up) */
